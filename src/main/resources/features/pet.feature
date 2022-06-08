@@ -1,7 +1,7 @@
 Feature: Validate Pet
 
   @petGet
-  Scenario Outline: Validate thatt the response of the pet request is 200
+  Scenario Outline: Validate that the response of the pet request is 200
     Given the following get request that brings us the pet
     And the response is 200
     Then the body response contains the "<id>" of the pet
